@@ -1,0 +1,42 @@
+nav,
+.offcanvas {
+  background-color: #ffffff;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+.navbar{
+    background-color: #000000;
+    
+}
+
+body{
+    background-color: #000000;
+}
+
+@media (max-width: 1500px) {
+  .navbar-nav > li:hover {
+    background-color: #fd0202;
+  }
+}
+
+#namepage{
+    color:  #fd0202;
+}
+
+#secciones{
+    color: white;
+}
+
+#presentacion{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+}
