@@ -55,6 +55,9 @@ header{
     background-color: var(--secondary-color);
 }
 
+#buscar{
+    border-radius: 50px;  
+}
 .search{
     background-color: transparent;
     border: 2px solid var(--primary-color);
