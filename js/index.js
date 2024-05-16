@@ -54,7 +54,7 @@ function getMovies(url) {
 }
 
 function showcarrucel(data){
-   /* carrucel_item.innerHTML=' ';*/
+  
 
     data.forEach(movie=>{
         const{title,poster_path,overview,}= movie;
