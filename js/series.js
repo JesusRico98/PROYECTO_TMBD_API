@@ -226,7 +226,7 @@ function showMovies(data) {
 }
 
 const overlayContent = document.getElementById('overlay-content');
-/* Open when someone clicks on the span element */
+
 function openNav(movie) {
   let id = movie.id;
   fetch(BASE_URL + '/tv/'+id+'/videos?'+API_KEY).then(res => res.json()).then(videoData => {
